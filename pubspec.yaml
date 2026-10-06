@@ -1,4 +1,4 @@
-name: gunung_semeru
+name: stateful
 description: A new Flutter project.
 publish_to: 'none'
 
@@ -18,9 +18,12 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  # assets:
-  #  - images/a_dot_burr.jpeg
-  #  - images/a_dot_ham.jpeg
+  assets:
+    - asset/semeru.png
+    - asset/semeru1.jpg
+    # Ensure the file exists in the correct path or correct its name
+    # Uncomment the line below if the asset exists and is named correctly
+    # - asset/a_dot_ham.jpeg
   # fonts:
   #   - family: Schyler
   #     fonts:
